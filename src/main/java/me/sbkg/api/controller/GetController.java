@@ -1,5 +1,6 @@
 package me.sbkg.api.controller;
 
+import me.sbkg.api.dto.MemberDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -63,5 +64,12 @@ public class GetController {
     } );
 
     return sb.toString();
+  }
+
+  // http://localhost:8080/api/v1/get-api/request3?name=value1&email=value2&organization=value3
+  @GetMapping (value = "/request3")
+  public String getRequestParam3(MemberDTO memberDTO) {
+
+    return memberDTO.toString();
   }
 }
