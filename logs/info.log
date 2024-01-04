@@ -1,0 +1,80 @@
+[2024-01-04 15:59:38.090] [INFO ] [restartedMain] me.sbkg.api.Application Starting Application using Java 17.0.8 with PID 14940 (F:\_idevRepository\bkRepository\springboot_keyguide\05_api\target\classes started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\05_api)
+[2024-01-04 15:59:38.091] [INFO ] [restartedMain] me.sbkg.api.Application No active profile set, falling back to 1 default profile: "default"
+[2024-01-04 15:59:38.289] [ERROR] [restartedMain] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-04 15:59:38.346] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+[2024-01-04 15:59:38.354] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-01-04 15:59:38.354] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.17]
+[2024-01-04 15:59:38.370] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-01-04 15:59:38.370] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 277 ms
+[2024-01-04 15:59:38.485] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2024-01-04 15:59:38.497] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path ''
+[2024-01-04 15:59:38.501] [INFO ] [restartedMain] me.sbkg.api.Application Started Application in 0.53 seconds (process running for 1156.182)
+[2024-01-04 15:59:38.503] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2024-01-04 15:59:43.993] [INFO ] [restartedMain] me.sbkg.api.Application Starting Application using Java 17.0.8 with PID 11900 (F:\_idevRepository\bkRepository\springboot_keyguide\05_api\target\classes started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\05_api)
+[2024-01-04 15:59:43.995] [INFO ] [restartedMain] me.sbkg.api.Application No active profile set, falling back to 1 default profile: "default"
+[2024-01-04 15:59:44.030] [INFO ] [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-01-04 15:59:44.030] [INFO ] [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-01-04 15:59:44.630] [ERROR] [restartedMain] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-04 15:59:44.786] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+[2024-01-04 15:59:44.793] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-04 15:59:44.794] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-01-04 15:59:44.794] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.17]
+[2024-01-04 15:59:44.835] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-01-04 15:59:44.835] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 804 ms
+[2024-01-04 15:59:45.166] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2024-01-04 15:59:45.183] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-04 15:59:45.197] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path ''
+[2024-01-04 15:59:45.206] [INFO ] [restartedMain] me.sbkg.api.Application Started Application in 1.582 seconds (process running for 2.429)
+[2024-01-04 16:02:32.955] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+[2024-01-04 16:02:32.959] [INFO ] [Thread-5] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:02:33.027] [INFO ] [restartedMain] me.sbkg.api.Application Starting Application using Java 17.0.8 with PID 11900 (F:\_idevRepository\bkRepository\springboot_keyguide\05_api\target\classes started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\05_api)
+[2024-01-04 16:02:33.027] [INFO ] [restartedMain] me.sbkg.api.Application No active profile set, falling back to 1 default profile: "default"
+[2024-01-04 16:02:33.197] [ERROR] [restartedMain] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-04 16:02:33.224] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+[2024-01-04 16:02:33.225] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:02:33.225] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-01-04 16:02:33.225] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.17]
+[2024-01-04 16:02:33.239] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-01-04 16:02:33.239] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 210 ms
+[2024-01-04 16:02:33.356] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2024-01-04 16:02:33.362] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:02:33.365] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path ''
+[2024-01-04 16:02:33.370] [INFO ] [restartedMain] me.sbkg.api.Application Started Application in 0.371 seconds (process running for 170.593)
+[2024-01-04 16:02:33.371] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2024-01-04 16:02:34.791] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2024-01-04 16:02:34.792] [INFO ] [Thread-7] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:02:34.844] [INFO ] [restartedMain] me.sbkg.api.Application Starting Application using Java 17.0.8 with PID 11900 (F:\_idevRepository\bkRepository\springboot_keyguide\05_api\target\classes started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\05_api)
+[2024-01-04 16:02:34.844] [INFO ] [restartedMain] me.sbkg.api.Application No active profile set, falling back to 1 default profile: "default"
+[2024-01-04 16:02:34.976] [ERROR] [restartedMain] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-04 16:02:34.992] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+[2024-01-04 16:02:34.993] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:02:34.993] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-01-04 16:02:34.993] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.17]
+[2024-01-04 16:02:35.006] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-01-04 16:02:35.006] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 161 ms
+[2024-01-04 16:02:35.072] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2024-01-04 16:02:35.077] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:02:35.080] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path ''
+[2024-01-04 16:02:35.084] [INFO ] [restartedMain] me.sbkg.api.Application Started Application in 0.258 seconds (process running for 172.306)
+[2024-01-04 16:02:35.085] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2024-01-04 16:03:20.420] [INFO ] [restartedMain] me.sbkg.api.Application Starting Application using Java 17.0.8 with PID 4680 (F:\_idevRepository\bkRepository\springboot_keyguide\05_api\target\classes started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\05_api)
+[2024-01-04 16:03:20.422] [INFO ] [restartedMain] me.sbkg.api.Application No active profile set, falling back to 1 default profile: "default"
+[2024-01-04 16:03:20.468] [INFO ] [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-01-04 16:03:20.468] [INFO ] [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-01-04 16:03:21.536] [ERROR] [restartedMain] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-04 16:03:21.773] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+[2024-01-04 16:03:21.782] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:03:21.784] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-01-04 16:03:21.785] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.17]
+[2024-01-04 16:03:21.847] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-01-04 16:03:21.848] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1379 ms
+[2024-01-04 16:03:22.362] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2024-01-04 16:03:22.377] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-04 16:03:22.398] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path ''
+[2024-01-04 16:03:22.411] [INFO ] [restartedMain] me.sbkg.api.Application Started Application in 2.48 seconds (process running for 3.243)
+[2024-01-04 16:03:26.136] [INFO ] [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-04 16:03:26.137] [INFO ] [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2024-01-04 16:03:26.138] [INFO ] [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2024-01-04 16:03:27.999] [INFO ] [http-nio-8080-exec-3] org.springdoc.api.AbstractOpenApiResource Init duration for springdoc-openapi is: 227 ms
+[2024-01-04 16:03:37.120] [INFO ] [http-nio-8080-exec-4] me.sbkg.api.controller.GetController getName 메소드가 호출되었습니다.
+[2024-01-04 16:03:52.489] [INFO ] [http-nio-8080-exec-10] me.sbkg.api.controller.GetController getHello 메소드가 호출되었습니다.

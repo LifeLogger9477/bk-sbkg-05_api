@@ -3,6 +3,8 @@ package me.sbkg.api.controller;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import me.sbkg.api.dto.MemberDTO;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -16,10 +18,13 @@ import java.util.Map;
 @RequestMapping (value = "/api/v1/get-api")
 public class GetController {
 
+  private final Logger logger = LoggerFactory.getLogger( GetController.class );
+
   // http://localhost:8080/api/v1/get-api/hello
   @RequestMapping (value = "/hello", method = RequestMethod.GET)
   public String getHello() {
 
+    logger.info( "getHello 메소드가 호출되었습니다." );
     return "Hello World";
   }
 
@@ -27,6 +32,7 @@ public class GetController {
   @GetMapping (value = "/name")
   public String getName() {
 
+    logger.info( "getName 메소드가 호출되었습니다." );
     return "Flature";
   }
 
