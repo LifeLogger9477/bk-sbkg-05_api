@@ -1,5 +1,7 @@
 package me.sbkg.api.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import me.sbkg.api.dto.MemberDTO;
 import org.springframework.web.bind.annotation.*;
 
@@ -43,11 +45,15 @@ public class GetController {
   }
 
   // http://localhost:8080/api/v1/get-api/request1?name=value1&email=value2&organization=value3
+  @Operation(
+      summary = "GET 메소드 예제",
+      description = "@RequestParam을 활용한 GET Method"
+  )
   @GetMapping (value = "/request1")
   public String getRequestParam1(
-      @RequestParam String name,
-      @RequestParam String email,
-      @RequestParam String organization
+      @Parameter(description = "이름", required = true) @RequestParam String name,
+      @Parameter(description = "이메일", required = true) @RequestParam String email,
+      @Parameter(description = "회사", required = true) @RequestParam String organization
   ) {
 
     return name + " " + email + " " + organization;
